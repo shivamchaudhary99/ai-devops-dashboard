@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from google import genai
+import google.generativeai as genai
 import json
 
-# ⚠️ BHAI, YAHAN APNI ASLI API KEY DAALNA ZAROORI HAI! ⚠️
-API_KEY = "AQ.Ab8RN6JBH909HA7-5WVlFHldd-sAO95tYmYfwH1M7rFGECyWpQ"
-client = genai.Client(api_key=API_KEY)
+# Apni API key yahan daal do
+API_KEY = "AQ.Ab8RN6KXzAyH_6LHAqRtPb9YZeVWtqf_jdDrRry960qqmUi-w"
+genai.configure(api_key=API_KEY)
 
 app = FastAPI()
 audit_trail = []
@@ -19,6 +19,7 @@ class EventPayload(BaseModel):
 
 def analyze_with_ai(description):
     try:
+        model = genai.GenerativeModel('gemini-1.5-flash')
         prompt = f"""
         You are a Cloud DevOps AI. Analyze this system event: "{description}".
         Return ONLY a JSON response with two keys:
@@ -26,15 +27,14 @@ def analyze_with_ai(description):
         - "ai_explanation": A simple 1-sentence explanation of the issue and what an operator should do.
         Do not use markdown formatting like ```json, just return the raw JSON text.
         """
-        response = client.models.generate_content(
-            model='gemini-1.5-flash',
-            contents=prompt
-        )
-        ai_data = json.loads(response.text.strip())
+        response = model.generate_content(prompt)
+        # Clean response text to ensure valid JSON
+        clean_text = response.text.strip().replace("```json", "").replace("```", "").strip()
+        ai_data = json.loads(clean_text)
         return ai_data
     except Exception as e:
         print(f"AI Error: {e}")
-        return {"ai_score": 0, "ai_explanation": "AI failed to analyze."}
+        return {"ai_score": 5, "ai_explanation": f"Fallback Analysis: {description}"}
 
 @app.post("/ingest")
 async def ingest_data(event: EventPayload):
