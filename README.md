@@ -1,26 +1,68 @@
-# 🚨 AI DevOps Alert Dashboard
+\# GlanceApp 93 - Mobile Cloud Briefings MVP
 
-Welcome to the **AI DevOps Alert Dashboard**! This project is a complete, real-time AI-powered pipeline built for our hackathon to ingest, analyze, and visually rank system and network alerts using Google Gemini AI.
 
----
 
-## 👥 Team Members & Architecture
+\## Overview
 
-This project is divided into four main microservices, built collaboratively by our team:
+GlanceApp 93 is a mobile-first incident briefing system designed for multi-region cloud teams. It ingests simulated JSON telemetry streams, calculates a dynamic incident priority score, leverages Gen-AI to generate short natural-language briefing summaries, and presents prioritized incidents to operators with a live feedback tuning mechanism.
 
-*   **Member 1: Data Ingestion Engine (`member1_ingestion.py`)** 
-    *   Simulates real-time DevOps environments by continuously generating and streaming JSON-based system logs, network traffic, and database alerts.
-*   **Member 2: FastAPI Backend Server (`member2_backend.py`)**
-    *   Acts as the central nervous system. It receives incoming data streams, stores them in memory, and handles API endpoints for both ingestion and data retrieval.
-*   **Member 3: AI Analysis Integration (`test_ai.py` & AI Logic)**
-    *   Connects to the Google Gemini API to analyze raw error logs, assigns a severity score (1-10), and generates actionable plain-text advice for developers.
-*   **Member 4: Streamlit UI Dashboard (`member4_frontend.py`)**
-    *   A responsive, real-time web frontend that fetches the AI-processed data from the backend and displays it in a clean, color-coded dashboard (Critical, Warning, Low Priority).
 
----
 
-## ⚙️ Prerequisites
+\---
 
-Make sure you have Python installed, along with the following libraries:
-```bash
-pip install fastapi uvicorn requests google-generativeai streamlit
+
+
+\## Architecture Note \& Skill Ownership
+
+
+
+1\. \*\*Cloud Data Engineering (Ingestion \& Audit):\*\*
+
+&#x20;  - Ingests multiple JSON streams over HTTP via `/api/ingest`.
+
+&#x20;  - Normalizes data, generates unique tracking IDs, and writes audit trails to disk (`audit.log`).
+
+&#x20;  - Persists latest state to disk (`state.json`) enabling decision replay.
+
+
+
+2\. \*\*Gen-AI \& Ranking Engine:\*\*
+
+&#x20;  - Multi-factor ranking algorithm based on `Severity`, `Impact`, and `Latency`.
+
+&#x20;  - Uses \*\*Google Gemini 1.5\*\* / LLM logic to produce concise 1-sentence operator summaries.
+
+&#x20;  - Includes intelligent heuristic fallback to ensure 100% uptime during network issues.
+
+
+
+3\. \*\*Mobile Operator UX:\*\*
+
+&#x20;  - Single-page responsive mobile interface built with Tailwind CSS.
+
+&#x20;  - Live dynamic weighting sliders allowing operators to adjust triage scoring parameters in real time.
+
+&#x20;  - Instant processing pipeline target under 5 seconds.
+
+
+
+\---
+
+
+
+\## Setup \& Running Instructions
+
+
+
+\### 1. Start Server
+
+Run `node server.js`
+
+The application will start on `http://localhost:3000`.
+
+
+
+\### 2. Simulate Stream Ingestion
+
+Run `node scripts/simulate.js`
+
