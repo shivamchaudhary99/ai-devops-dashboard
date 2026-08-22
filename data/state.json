@@ -1,0 +1,478 @@
+{
+  "events": [
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787371992205_f1sk5",
+      "ingestedAt": "2026-08-22T04:13:12.206Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787371277727_29l7v",
+      "ingestedAt": "2026-08-22T04:01:17.727Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787371273208_xh7fy",
+      "ingestedAt": "2026-08-22T04:01:13.208Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787370881075_v733i",
+      "ingestedAt": "2026-08-22T03:54:41.075Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787370560240_rigz5",
+      "ingestedAt": "2026-08-22T03:49:20.240Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787370548567_2drsd",
+      "ingestedAt": "2026-08-22T03:49:08.567Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787370334233_ygm5q",
+      "ingestedAt": "2026-08-22T03:45:34.233Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787370320629_4aoms",
+      "ingestedAt": "2026-08-22T03:45:20.629Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787370319285_70ogb",
+      "ingestedAt": "2026-08-22T03:45:19.286Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "prod-db-us-east",
+      "type": "Replication Lag High",
+      "severity": 9,
+      "impactScore": 9,
+      "latencyMs": 450,
+      "payload": {
+        "lagSec": 42
+      },
+      "id": "evt_1787368055884_ngkjs",
+      "ingestedAt": "2026-08-22T03:07:35.884Z",
+      "score": 72.9,
+      "aiExplanation": "[AI Summary] PROD-DB-US-EAST reported high-priority Replication Lag High (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "infra-db-cluster",
+      "type": "CPU Throttling & IOPS Exhaustion",
+      "severity": 8,
+      "impactScore": 9,
+      "latencyMs": 350,
+      "payload": {
+        "node": "db-primary-01",
+        "iopsUsage": "98%"
+      },
+      "id": "evt_1787372047035_xz75i",
+      "ingestedAt": "2026-08-22T04:14:07.035Z",
+      "score": 67.7,
+      "aiExplanation": "[AI Summary] INFRA-DB-CLUSTER reported high-priority CPU Throttling & IOPS Exhaustion (Severity 8/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-identity-service",
+      "type": "Brute Force Suspicious Pattern",
+      "severity": 9,
+      "impactScore": 7,
+      "latencyMs": 120,
+      "payload": {
+        "targetIPs": 14,
+        "failedAttempts": 2500
+      },
+      "id": "evt_1787372047036_5vdeo",
+      "ingestedAt": "2026-08-22T04:14:07.036Z",
+      "score": 66.24,
+      "aiExplanation": "[AI Summary] AUTH-IDENTITY-SERVICE reported high-priority Brute Force Suspicious Pattern (Severity 9/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787371992207_uxndd",
+      "ingestedAt": "2026-08-22T04:13:12.208Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787371277727_d9ttc",
+      "ingestedAt": "2026-08-22T04:01:17.727Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787371273211_7abr3",
+      "ingestedAt": "2026-08-22T04:01:13.211Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787370881075_cpkzn",
+      "ingestedAt": "2026-08-22T03:54:41.075Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787370560240_y6yz8",
+      "ingestedAt": "2026-08-22T03:49:20.240Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787370548568_4ycri",
+      "ingestedAt": "2026-08-22T03:49:08.568Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787370334234_dvzef",
+      "ingestedAt": "2026-08-22T03:45:34.234Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787370320629_w3e1i",
+      "ingestedAt": "2026-08-22T03:45:20.629Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787370319293_i7q9p",
+      "ingestedAt": "2026-08-22T03:45:19.293Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "k8s-ingress-eu",
+      "type": "504 Gateway Timeout Spikes",
+      "severity": 7,
+      "impactScore": 8,
+      "latencyMs": 1200,
+      "payload": {
+        "rate": "12%"
+      },
+      "id": "evt_1787368055885_mrv66",
+      "ingestedAt": "2026-08-22T03:07:35.885Z",
+      "score": 61.4,
+      "aiExplanation": "[AI Summary] K8S-INGRESS-EU reported high-priority 504 Gateway Timeout Spikes (Severity 7/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "api-gateway-edge",
+      "type": "SSL Certificate Expiry Warning",
+      "severity": 5,
+      "impactScore": 6,
+      "latencyMs": 45,
+      "payload": {
+        "domain": "api.cloud.internal",
+        "daysRemaining": 3
+      },
+      "id": "evt_1787372047036_b07by",
+      "ingestedAt": "2026-08-22T04:14:07.036Z",
+      "score": 43.09,
+      "aiExplanation": "[AI Summary] API-GATEWAY-EDGE reported high-priority SSL Certificate Expiry Warning (Severity 5/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787371992208_m0wy9",
+      "ingestedAt": "2026-08-22T04:13:12.209Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787371277727_8o349",
+      "ingestedAt": "2026-08-22T04:01:17.727Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787371273212_6422g",
+      "ingestedAt": "2026-08-22T04:01:13.212Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787370881075_wjckv",
+      "ingestedAt": "2026-08-22T03:54:41.075Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787370560240_dw62z",
+      "ingestedAt": "2026-08-22T03:49:20.240Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787370548568_crlfv",
+      "ingestedAt": "2026-08-22T03:49:08.568Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787370334235_oo1oi",
+      "ingestedAt": "2026-08-22T03:45:34.235Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787370320629_e9ayu",
+      "ingestedAt": "2026-08-22T03:45:20.629Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787370319293_r20u1",
+      "ingestedAt": "2026-08-22T03:45:19.294Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    },
+    {
+      "source": "auth-service-asia",
+      "type": "Token Verification Delay",
+      "severity": 4,
+      "impactScore": 5,
+      "latencyMs": 890,
+      "payload": {
+        "queue": 140
+      },
+      "id": "evt_1787368055885_aqjjh",
+      "ingestedAt": "2026-08-22T03:07:35.885Z",
+      "score": 36.78,
+      "aiExplanation": "[AI Summary] AUTH-SERVICE-ASIA reported high-priority Token Verification Delay (Severity 4/10). Immediate operator attention suggested."
+    }
+  ],
+  "weights": {
+    "severity": 0.5,
+    "impact": 0.3,
+    "latency": 0.2
+  },
+  "lastTriage": {
+    "timestamp": "2026-08-22T04:14:07.036Z",
+    "count": 3
+  }
+}
