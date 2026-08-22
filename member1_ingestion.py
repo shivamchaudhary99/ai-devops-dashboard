@@ -8,7 +8,7 @@ API_URL = "http://localhost:8000/ingest"
 
 def generate_fake_event():
     # 3 Simulated Data Sources
-    sources = ["Server Logs", "Database Alerts", "Network Traffic"]
+    sources = ["Server Logs", "Database Alerts", "DNetwork Traffic"]
     source = random.choice(sources)
     
     # Matching realistic errors for each source
